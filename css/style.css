@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+ 
+body{
+    background-color: azure;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.mainArr {
+    margin: 30px 0;
+    padding: 40px 0;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.func1,
+.func2,
+.func3,
+.func4,
+.func5 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.funcTitle1,
+.funcTitle2,
+.funcTitle3,
+.funcTitle4,
+.funcTitle5,
+.funcButton1,
+.funcButton2,
+.funcButton3,
+.funcButton4,
+.funcButton5 {
+    border: 2px solid black;
+}
+
+.funcTitle1,
+.funcTitle2,
+.funcTitle3,
+.funcTitle4,
+.funcTitle5{
+    margin: 0 10px 0 0;
+    padding: 10px 2px;
+}
+
+.funcButton1:hover,
+.funcButton2:hover,
+.funcButton3:hover,
+.funcButton4:hover,
+.funcButton5:hover {
+    cursor: pointer;
+}

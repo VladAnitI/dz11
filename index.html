@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>dz11</title>
+</head>
+<body>
+    <div class="container">
+        <div></div>
+        <div class="main">
+            <div class="mainArr">
+                <h1 id="mainArr"></h1>
+            </div>
+            <div class="func">
+                <div class="func1">
+                    <div class="funcTitle1">Сортировка по убыванию</div>
+                    <div onclick="addInDOM(sortArrInDescOrder(mainArr))" id="BTN1" class="funcButton1"></div>
+                </div>
+                <div class="func2">
+                    <div class="funcTitle2">Сортировка по возрастнаию</div>
+                    <div onclick="addInDOM(sortArrInAscOrder(mainArr))" id="BTN2" class="funcButton2"></div>
+                </div>
+                <div class="func3">
+                    <div class="funcTitle3">Самое большое число в массиве</div>
+                    <div onclick="addInDOM(largestNumInArr(mainArr))" id="BTN3" class="funcButton3"></div>
+                </div>
+                <div class="func4">
+                    <div class="funcTitle4">Самое маленькое число в массиве</div>
+                    <div onclick="addInDOM(smallestNumInArr(mainArr))" id="BTN4" class="funcButton4"></div>
+                </div>
+                <div class="func5">
+                    <div class="funcTitle5">Перемножение всех чисел массива</div>
+                    <div onclick="addInDOM(multiplyingNumberInArrs(mainArr))" id="BTN5" class="funcButton5"></div>
+                </div>
+            </div>
+        </div>
+        <div></div>
+    </div>
+    <script src="scripts/main.mjs"></script>
+</body>
+</html>
